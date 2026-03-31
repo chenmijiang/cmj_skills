@@ -12,8 +12,16 @@ cmj_skills/
 ```
 
 Each skill directory contains:
-- `README.md` - Human-readable overview and use cases
+- `README.md` - Human-readable overview and use cases(Optional)
 - `SKILL.md` - Complete skill content and instruction format
+
+## How to Use
+
+```bash
+bunx skills add https://github.com/chenmijiang/cmj_skills.git -g
+```
+
+> See more details about `skills` command in the [Skills Tool](https://github.com/vercel-labs/skills).
 
 ## License
 
